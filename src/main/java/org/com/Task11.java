@@ -7,16 +7,16 @@ public class Task11 {
 
         int i = 1;
         while(i<=10) {
-            System.out.println(printString());
+            printString();
+            System.out.println();
             i++;
         }
     }
-        public static String printString() {
+        public static void printString() {
             int n = 1;
             while (n <= 10) {
                 System.out.print("S");
                 n++;
             }
-            return "";
         }
 }
